@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="0dp">
+
+
+        <EditText
+       android:id="@+id/UrlBar"
+       android:paddingTop="0dp"
+            android:layout_weight="8"
+       android:layout_width="match_parent"
+       android:layout_height="6mm"
+       android:hint="Search URL"
+            android:inputType="textAutoComplete"
+            android:maxLines="1"
+       android:scrollbars = "vertical"
+       android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp">
+   </EditText>
+        <Button
+            android:id="@+id/goButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go"
+            android:textSize="24dp"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"></Button>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/myProgressBar"
+            android:layout_width="match_parent"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1">
+        </ProgressBar>
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:src="@mipmap/ic_launcher">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+    <WebView
+        android:id="@+id/myWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </WebView>
+</LinearLayout>

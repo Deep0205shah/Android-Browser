@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:title="Cookies"
+        android:key="cookies_switchp"
+        android:summaryOff="Cookies are disabled"
+        android:summaryOn="Cookies are enabled">
+
+
+    </SwitchPreference>
+    <SwitchPreference
+        android:title="Javascript"
+        android:key="javascript_switchp"
+        android:id="@+id/jsStatus"
+        android:summaryOff="Javascript settings are disabled"
+        android:summaryOn="Javascript setting are enabled">
+
+    </SwitchPreference>
+
+</PreferenceScreen>

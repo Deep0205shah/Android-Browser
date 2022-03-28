@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_bkm"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_bookmark_border_24"
+        android:title="Bookmark This Page" />
+
+    <item
+        android:id="@+id/menu_back"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_keyboard_arrow_left_24"
+        android:title="Backward" />
+
+    <item
+        android:id="@+id/menu_for"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:title="Forward" />
+
+    <item
+        android:id="@+id/menu_ref"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        android:title="Refresh" />
+    <item
+        android:id="@+id/menu_share"
+
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="Copy and Share Link" />
+    <item
+        android:id="@+id/menu_bkmList"
+
+        android:title="Show Bookmarks" />
+    <item
+        android:id="@+id/menu_history"
+
+        android:title="History" />
+    <item
+        android:id="@+id/menu_set"
+
+        android:title="Settings" />
+
+</menu>
